@@ -1,0 +1,193 @@
+/*specificate*/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+/*color*/
+
+.mint {
+    background: #109b8c;
+}
+
+.blue {
+    background: #0e97e3;
+}
+
+.purple {
+    background: #532a65;
+}
+
+.crimson {
+    background: #b3296a;
+}
+
+.link {
+    padding-top: 20px;
+    padding-left: 37px;
+   
+}
+
+.navmenu {
+    display: flex; 
+    background: black;
+    height: 62px;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+
+.link {
+    color: #929292;
+    cursor: pointer;
+    direction: none;
+    text-transform: uppercase;
+}
+
+.link:hover::before {
+    content: "";
+    top: 58px;
+    transform: px;
+    position: absolute;
+    background: white;
+    width: 69px;
+    height: 4px;
+}
+
+.logo {
+    margin-top: 14px;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+.person {
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.search {
+    padding-top: 21px;
+    margin-left: 60px;
+}
+
+.link:hover { 
+text-decoration: none;
+color: white;
+}
+
+
+ 
+.container-village {
+    display: flex;
+    justify-content: center;
+    margin: 21px 239px 0 200px 
+}
+
+.litemenu-link {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    color: white;
+    text-transform: uppercase;
+ 
+}
+
+.litemenu-link::before {
+    content: "#";
+}
+
+.litemenu-link:hover {
+    
+    color: white;
+    text-decoration: none;
+     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+}
+
+.litemenu {
+    display: flex;
+    padding-top: 86px;
+    justify-content: center;
+    
+}
+
+.village-block1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+.block1-h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.village-block2 {
+    flex-grow: 1;
+}
+
+.block1-case {
+    background: none;
+    width: 460px;
+    height: 94px;
+    border-radius: 100px;
+    display: flex;
+    
+}
+.block1-case:hover {
+    background-color: #dcdcdc;
+    cursor: pointer;
+}
+
+.case-logo {
+    background-color: #754783;
+    width: 88px;
+    height: 88px;
+    border-radius: 100px;
+    transform: translate(4px, 2.6px);
+    
+}
+logo-h4 {
+   text-transform: uppercase;
+}
+
+.logo-h5 {
+    text-transform: uppercase;
+    width: 289px;
+    text-align:center;
+    padding: 34px;
+}
+
+.case-icon {
+transform: translate(10px);
+}
+
+.block1-menu {
+display: flex;
+justify-content: center;
+text-decoration: none;
+list-style-type: none; 
+width: 377px;
+margin: 20px;
+}
+
+
+.menu-li {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-li:hover {
+    color: white;
+    background-color: black;
+}
