@@ -124,17 +124,17 @@ color: white;
     flex-grow: 5;
 }
 
-.block1-h3 {
+.BlockTitle-h3 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
 }
 
 .village-block2 {
-    flex-grow: 1;
+    
 }
 
-.block1-case {
+.block2-case {
     background: none;
     width: 460px;
     height: 94px;
@@ -142,7 +142,7 @@ color: white;
     display: flex;
     
 }
-.block1-case:hover {
+.block2-case:hover {
     background-color: #dcdcdc;
     cursor: pointer;
 }
@@ -170,7 +170,7 @@ logo-h4 {
 transform: translate(10px);
 }
 
-.block1-menu {
+.block2-menu {
 display: flex;
 justify-content: center;
 text-decoration: none;
@@ -190,4 +190,28 @@ margin: 20px;
 .menu-li:hover {
     color: white;
     background-color: black;
+}
+
+.block1-case {
+    background-color: rebeccapurple;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.block1-slider {
+    margin: 55px 0 0 ;
+}
+
+.arrow {
+    background: black;
+    width: 100px;
+    height: 300px;
+    z-index: 1;
+    position: absolute;
+    opacity: 100%;
+}
+
+.right {
+    transform: translate(600px, 0)
 }
