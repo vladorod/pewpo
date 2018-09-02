@@ -122,6 +122,7 @@ color: white;
     display: flex;
     flex-direction: column;
     flex-grow: 5;
+    overflow: hidden;
 }
 
 .BlockTitle-h3 {
@@ -194,24 +195,55 @@ margin: 20px;
 
 .block1-case {
     background-color: rebeccapurple;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
+    margin-right: 20px 
 }
 
 .block1-slider {
-    margin: 55px 0 0 ;
+    margin: 55px 61px 0 0;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
 }
 
 .arrow {
-    background: black;
-    width: 100px;
-    height: 300px;
-    z-index: 1;
-    position: absolute;
-    opacity: 100%;
+    
 }
 
 .right {
-    transform: translate(600px, 0)
+    position:relative;
+    width: 50px;
+    height: 50px;
+    
+}
+.right:hover {
+     background-image: linear-gradient(90deg, rgba(255,255,255,0), rgba(0,0,0,0.5));
+}
+
+.left {
+    width: 250px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 10px;
+    background-image:  linear-gradient(90deg, rgba(0,0,0,0), rgba(255,255,255,0));;
+    
+}
+.left:hover {
+    background-image:  linear-gradient(90deg, rgba(0,0,0,0.4), rgba(255,255,255,0));
+}
+
+.polosa {
+    
+    
+}
+
+.right {
+    
+}
+
+.block1-polosa {
+    display: flex;
 }
